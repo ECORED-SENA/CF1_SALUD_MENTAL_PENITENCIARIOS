@@ -1,2 +1,1 @@
-module.exports =
-  'Lineamientos y marco normativo'
+module.exports = 'Lineamientos y marco normativo'
