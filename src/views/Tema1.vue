@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Salud mental
@@ -15,7 +15,7 @@
           h5.mb-2 Un estado de bienestar en el cual el individuo se da cuenta de sus propias aptitudes. Puede afrontar las presiones normales de la vida, puede trabajar productiva y fructíferamente y es capaz de hacer una contribución a su comunidad.
           span.d-flex.justify-content-end.me-5 (OMS, 2020, p. 6).
       .col-lg-4.mb-4.mb-lg-0
-        figure
+        figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img1.png').m-auto
       .col-lg-4
         p La Ley 1616 de 2013, en el artículo 3°, define la salud mental como:
@@ -25,7 +25,7 @@
               p Un estado dinámico que se expresa en la vida cotidiana a través del comportamiento y la interacción de manera tal que permite a los sujetos individuales y colectivos desplegar sus recursos emocionales, cognitivos y mentales para transitar por la vida cotidiana, para trabajar, para establecer relaciones significativas y para contribuir a la comunidad.
     .row.mb-5
       .col-lg-6.mb-4.mb-lg-0
-        figure
+        figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img2.png').m-auto
       .col-lg-6.mb-4.mb-lg-0
         p La salud mental incluye el bienestar emocional, psicológico y social que afecta la forma en que se piensa y actúa, también ayuda a determinar cómo se maneja el estrés, la relación con los demás y las decisiones que se toman. Además, la salud mental es importante en todas las etapas de la vida, desde la niñez y la adolescencia hasta la edad adulta.
@@ -35,7 +35,7 @@
         p Algunos de los lineamientos expedidos por las entidades que integran el Sistema Penitenciario en Colombia son:
     .row.bg-color2.mb-5
       .col-12.px-5
-        .row.my-5
+        .row.my-5(data-aos="flip-right")
           .col-lg-4.bg-color3
             .p-4
               .row.my-4
@@ -108,7 +108,7 @@
                   th Organización Mundial de Salud
                   td Establece normas para el control de enfermedades.
           .col-lg-5
-            figure
+            figure(data-aos="zoom-in-up")
               img(src='@/assets/curso/tema1/img6.png').m-auto
     #t_1_1
     .titulo-segundo.color-secundario
@@ -119,11 +119,11 @@
         p #[span.txt-deco1 El Examen Médico de Ingreso (EMI)] busca identificar el estado físico, mental y las patologías asociadas para identificar eventos de interés en salud pública. 
         p.mb-0 La #[span.txt-deco1 promoción de la salud y prevención de la enfermedad, la detección precoz, la demanda inducida] a los servicios y determinar las necesidades de atención en salud, contribuyendo a la estrategia de gestión del riesgo en salud, como puerta de entrada al modelo de atención en salud con enfoque de atención primaria, al ingreso de las personas privadas de la libertad a los Establecimientos de Reclusión de Orden Nacional (ERON)  a cargo del Instituto Nacional Penitenciario y Carcelario (Inpec).
       .col-lg-6
-        figure
+        figure(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema1/img7.png').m-auto
     .row.mb-5
       .col-lg-5.mb-4.mb-lg-0
-        figure
+        figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img8.png').m-auto
       .col-lg-7
         .row.mb-4
@@ -143,14 +143,14 @@
           .col-4
             h4 Las consultas solicitadas (y en seguimiento) por personas privadas de la libertad fueron relacionadas:
           .col-6
-            figure
+            figure(data-aos="flip-right")
               img(src='@/assets/curso/tema1/img4.svg', style="width: 550px").m-auto
     p.mb-5 Con lo anterior se puede identificar que en la población privada de la libertad en tratamiento médico psiquiátrico, la prevalencia de diagnóstico de patología mental a corte de octubre 2021 se relaciona con los trastornos mentales y del comportamiento, debido al uso de sustancias psicoactivas seguido de los trastornos de ansiedad como se lee en la tabla a continuación:
     .row.bg-color8.mb-5
       .col-12.px-5
         .row.my-5
           .col-lg-5.mb-4.mb-lg-0
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema1/img9.png').m-auto
           .col-lg-7
             .titulo-sexto.color-acento-contenido
@@ -184,7 +184,7 @@
           .col-lg-7.mb-4.mb-lg-0
             p La prestación de los servicios de salud de la población privada de la libertad intramural (PPL), se realiza conforme a lo establecido en la Resolución 3595 de 2016, con cargo a los recursos del Fondo Nacional de Atención en Salud para la Población Privada de la Libertad que son administrados por la Unidad de Servicios Penitenciarios y Carcelarios (Uspec) a través de la contratación de una entidad fiduciaria, en este caso Fiduciaria Central S.A., quien realiza la contratación de dos instituciones prestadoras de los servicios de salud, IPS Clínica Nuestra Señora de la Paz, IPS Clínica Basilia para la atención médica psiquiátrica al interior de los establecimientos de reclusión, las cuales reportan en base de datos mensualmente el número de privados de la libertad diagnosticados con patología mental de la siguiente manera:
           .col-lg-5
-            figure
+            figure(data-aos="zoom-in-up")
               img(src='@/assets/curso/tema1/img10.png').m-auto
         .row.justify-content-center.mb-5
           .col-lg-7
@@ -249,7 +249,7 @@
                   th.text-center
         .row.mb-5
           .col-lg-5.mb-4.mb-lg-0
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema1/img11.png').m-auto
           .col-lg-7
             p Respecto a los privados de la libertad diagnosticados con patología mental, la Ley 1709 de 2014, en el artículo 16. Establecimientos de reclusión para inimputables por trastorno mental permanente o transitorio con base patológica y personas con trastorno mental sobreviniente, menciona que:
@@ -260,7 +260,7 @@
               .col
                 p #[span.txt-deco1 Destinados a alojar y rehabilitar a inimputables por trastorno mental, según decisión del Juez de Conocimiento previo dictamen pericial del Instituto Nacional de Medicina Legal y Ciencias Forenses, a aquellas personas a quienes se les sustituye la pena privativa de la libertad por internamiento en este tipo de establecimientos como consecuencia de un trastorno mental sobreviniente (sic).]
         p.mb-5 No obstante, la mencionada Ley precisa que:
-        .row.mb-5
+        .row.mb-5(data-aos="flip-right")
           .col-lg-4.bg-color6
             .p-4
               .row

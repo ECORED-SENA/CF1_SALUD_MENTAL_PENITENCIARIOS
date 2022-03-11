@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Modelo de atención en salud
@@ -21,7 +21,7 @@
               p.mb-0.txt-deco1 Por el cual se adiciona un capítulo al Decreto 1069 de 2015, Único Reglamentario del Sector Justicia y del Derecho, en lo relacionado con la prestación de los servicios de salud a las personas privadas de la libertad bajo la custodia y vigilancia del Instituto Nacional Penitenciario y Carcelario – Inpec.
     .row.mb-5
       .col-lg-5.mb-4.mb-lg-0
-        figure
+        figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema2/img1.png').m-auto
       .col-lg-7
         p En desarrollo de los artículos 65 y 66 de la Ley 1709 de 2014 y modificado por el Decreto 1142 de 2016 se articula la afiliación de esta población al #[span.txt-deco1 Sistema General de Seguridad Social en Salud] de quienes pueden conservar su afiliación a los regímenes contributivo, especiales o de excepción y al régimen subsidiado para la población domiciliaria que no pueda acceder a los anteriores regímenes.
@@ -34,7 +34,7 @@
         p Estas intervenciones pueden desarrollarse a nivel individual o colectivo a través de las modalidades de prestación de los servicios intramurales o extramurales, dependiendo de sus características y del contexto en el cual se apliquen las RAI. Ahora se conocerán algunas rutas. 
         p.txt-deco1 A continuación, se presenta la ruta de atención para el ingreso por remisión de médico general:
       .col-lg-6
-        figure
+        figure(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema2/img2.png').m-auto
     .tarjeta.tarjeta--sena.p-4.mb-5
       PasosB.color-acento-contenido
@@ -82,11 +82,11 @@
                 p.mb-0.txt-deco1 Todo acto sexual, la tentativa de consumar un acto sexual, los comentarios, insinuaciones sexuales no deseados, o las acciones para comercializar o utilizar de cualquier otro modo la sexualidad de una persona mediante coacción por otra persona, independientemente de la relación de esta con la víctima, en cualquier ámbito.
             p Es una de las principales manifestaciones de las violencias por motivos de género que, para el caso de la población penitenciaria, se ejercen sobre las mujeres, los hombres y las personas LGTBI (lesbianas, gay, transexuales, bisexuales e intersexuales).
           .col-lg-5
-            figure
+            figure(data-aos="zoom-in-up")
               img(src='@/assets/curso/tema2/img9.svg').m-auto
         .row
           .col-lg-5.mb-4.mb-lg-0
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema2/img10.svg').m-auto
           .col-lg-7
             p.mb-4 Dentro del marco legal colombiano, la violencia sexual se define como:
@@ -120,11 +120,11 @@
                 .col-12
                   p Se realizará por parte del psicólogo clínico según su criterio remisión al especialista en psiquiatría y el cual a su vez valorará y define el tratamiento a seguir a nivel ambulatorio.
           .col-lg-5
-            figure
+            figure(data-aos="zoom-in-up")
               img(src='@/assets/curso/tema2/img4.png').m-auto
         .row.mb-5
           .col-lg-5.mb-4.mb-lg-0
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema2/img5.png').m-auto
           .col-lg-7
             p.mb-4 La ruta de atención que se debe seguir para las víctimas de violencia sexual es:
@@ -147,7 +147,7 @@
                 p.mb-0 #[span.txt-deco1 La detección temprana, el tratamiento oportuno y adecuado del riesgo suicida y sus causas] son claves para su reducción de este tipo de comportamientos. Según la Organización Mundial de la Salud (OMS), las enfermedades mentales, principalmente la depresión, los trastornos por consumo de alcohol, el abuso de sustancias, la violencia, las sensaciones de pérdida y diversos entornos culturales y sociales constituyen importantes factores de riesgo.
             p La presencia de ideas persistentes de suicidio o autolesivas, de un plan suicida o de amenazas de suicidio, junto con la existencia de antecedentes personales o familiares de intentos de suicidio, constituyen una urgencia en salud que requiere toda observación y atención integral de parte de los profesionales de la salud, de conformidad a la normatividad vigente, para la prestación en salud a la PPL a cargo del Inpec. Esta es la ruta de atención para estos casos:
           .col-lg-4
-            figure
+            figure(data-aos="zoom-in-up")
               img(src='@/assets/curso/tema2/img6.png').m-auto
     .tarjeta.color-acento-botones.p-4.p-md-5.mb-5
       .row.justify-content-around.align-items-center
@@ -174,7 +174,7 @@
     h4.text-center.text-white.bg-color6.mb-5.p-3 Atención integrada e integral de las personas privadas de la libertad con consumo, abuso o adicción de sustancias psicoactivas
     .row.mb-5
       .col-lg-4.mb-4.mb-lg-0
-        figure
+        figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema2/img7.png').m-auto
       .col-lg-8
         .row.align-items-center.mb-4
@@ -187,7 +187,7 @@
         p.mb-4 Para la atención del este tipo de consumo que se detecte en la PPL, se debe tener en cuenta el tipo de intervención: desintoxicación de urgencia y desintoxicación voluntaria supervisada, con base en el número de personas privadas de la libertad a de cada ERON, el tratamiento para la superación de la dependencia acorde a lo establecido en el Decreto 2245 de 2015, para la atención de personas consumidoras de sustancias psicoactivas (SPA).
         h4.text-center.text-white.bg-color6.mb-4.p-3 Atención extramural de las PPL con consumo, abuso o adicción de sustancias psicoactivas:
         p Para la atención del consumo, abuso o adicción de sustancias psicoactivas que se detecte en la PPL, se debe garantizar la contratación con instituciones que ofrezcan programas de atención descritas en el artículo 1° de la Ley 1566 de 2012, cualquiera que sea su naturaleza jurídica u objeto social y deberán cumplir con las condiciones de habilitación establecidas; así como lo contenido en la Circular Externa 002 de la Superintendencia Nacional de Salud, mediante la cual se imparten instrucciones respecto a la atención de los problemas y trastornos asociados al consumo de sustancias psicoactivas. Los servicios son:
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in-up")
       .col-6.col-lg-3
         .p-1
           figure
@@ -260,6 +260,122 @@
     #t_2_2
     .titulo-segundo.color-secundario
       h2 2.2 Manual técnico administrativo
+    .row.mb-5
+      .col-lg-4
+        p Mediante la Resolución número 000513 del 01 febrero de 2021 se deroga la Resolución 2897 del 10 de junio de 2016, y se adopta el Manual técnico administrativo para la implementación del modelo de atención en salud de la población privada de la libertad a cargo del INPEC.
+      .col-lg-8
+        .row
+          .col-4.bg-color10
+          .col-8.bg-color9
+            .p-4
+              p Tiene como #[span.txt-deco1 objetivo] definir los lineamientos necesarios para la prestación de los servicios de salud a la Población Privada de la Libertad (PPL) a cargo del INPEC, para garantizar, a través de su implementación, la continuidad, integralidad, integridad y los criterios de calidad que exige la legislación vigente, con un enfoque preventivo.
+    .row.mb-5
+      .col-lg-4
+        img(src='@/assets/curso/tema2/img9.png').m-auto
+      .col-lg-7
+        .row.mx-0
+          .col-12.bg-color11
+            .p-4
+              h4.txt-deco1.mb-4 Cuenta con objetivos específicos que son:
+              ul.lista-ul--color.lista-ul
+                li 
+                  i.fas.fa-check-circle(style="color: #133D60")
+                  | Garantizar los servicios de salud al cien por ciento de la población privada de la libertad a cargo del Fondo Nacional de Salud.
+                li 
+                  i.fas.fa-check-circle(style="color: #133D60")
+                  | Garantizar la articulación exigida por la normatividad vigente con las EPS y entidades que administren fondos especiales, para la atención en salud de la población privada de la libertad afiliada a los regímenes: contributivo, especial y de excepción.
+                li 
+                  i.fas.fa-check-circle(style="color: #133D60")
+                  | Definir las acciones para la implementación de las responsabilidades de cada uno de los actores en salud, del Sistema Penitenciario y Carcelario, según la legislación vigente.
+                li 
+                  i.fas.fa-check-circle(style="color: #133D60")
+                  | Realizar las intervenciones colectivas en salud pública que corresponden, en los ERON a cargo del Inpec.
+                li 
+                  i.fas.fa-check-circle(style="color: #133D60")
+                  | Implementar un sistema de calidad que permita monitorear de forma permanente la prestación de los servicios de salud que se le brindan a la población privada de la libertad, ya sean intramurales o externos.
+                li 
+                  i.fas.fa-check-circle(style="color: #133D60")
+                  | Promover el mejoramiento continuo en la prestación de los servicios de salud por medio de la evaluación periódica de los procesos, que permitan orientar e implementar las acciones de mejora requeridas.
+      .col-1.d-none.d-lg-block
+        figure
+          img(src='@/assets/curso/tema2/img30.svg').m-auto
+    .row
+      .col-lg-7.mb-4.mb-lg-0
+        p.mb-4 El documento se aplica a nivel nacional en todos los establecimientos de reclusión para la prestación de los servicios de salud a la población privada de la libertad (PPL) a cargo del Inpec e inicia con el examen de ingreso y finaliza con el examen de egreso. #[span.txt-deco1 Este es un documento interinstitucional con responsabilidades de los actores del Fondo Nacional de Salud PPL, conforme a lo establecido en el Decreto 2245 de 2015 y 1142 de 2016].
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo1.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p #[b Anexo]. Para conocer sobre el manual técnico administrativo, se puede ingresar al siguiente documento.
+      .col-lg-5
+        figure(data-aos="zoom-in-up")
+          img(src='@/assets/curso/tema2/img31.svg').m-auto
+    separador.mb-5
+    #t_2_3
+    .titulo-segundo.color-secundario
+      h2 2.3 Salud pública y gestión del riesgo
+    p.mb-5 La salud pública es la responsabilidad estatal y ciudadana de protección de la salud como un derecho esencial, individual, colectivo y comunitario logrado en función de las condiciones de bienestar y calidad de vida. La normatividad dice:
+    .row.mb-5
+      .col-lg-8.mb-4.mb-lg-0
+        TabsA.color-acento-botones.mb-5
+          .tarjeta.color-acento-botones--borde.p-4(titulo="La Ley 1122 de 2007")
+            .row
+              .col-12
+                p #[b La Ley 1122 de 2007] define que la salud pública está constituida por el conjunto de políticas que buscan garantizar de una manera integrada, la salud de la población por medio de acciones de salubridad dirigidas tanto de manera individual como colectiva, ya que sus resultados se constituyen en indicadores de las condiciones de vida, bienestar y desarrollo del país. Dichas acciones se realizarán bajo la rectoría del Estado y deberán promover la participación responsable de todos los sectores de la comunidad.
+          .tarjeta.color-acento-botones--borde.p-4(titulo="La Ley 1751 de 2015")
+            .row
+              .col-12
+                p #[b La Ley 1751 de 2015] establece que “es deber del Estado adoptar políticas públicas dirigidas a lograr la reducción de las desigualdades de los determinantes sociales de la salud que inciden en el goce efectivo del derecho a la salud, promover el mejoramiento de la salud, prevenir la enfermedad y elevar el nivel de la calidad de vida. Estas políticas estarán orientadas principalmente al logro de la equidad en salud. Se entiende por determinantes de salud aquellos factores que determinan la aparición de la enfermedad, tales como los sociales, económicos, culturales, nutricionales, ambientales, ocupacionales, habitacionales, de educación y de acceso a los servicios públicos, los cuales serán financiados con recursos diferentes a los destinados al cubrimiento de los servicios y tecnologías de salud”.
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Ley 1709 de 2014")
+            .row
+              .col-12
+                p #[b Ley 1709 de 2014, en el artículo 105], preceptúa que se deberá diseñar un modelo de atención en salud especial, integral, diferenciado y con perspectiva de género para la población privada de la libertad, con una política de atención primaria en salud; por su parte, el Ministerio de Salud, define que la estrategia de atención primaria en salud busca generar bienestar y abordar el riesgo de salud desde las condiciones de la comunidad y de cada uno de sus integrantes.
+          .tarjeta.color-acento-botones--borde.p-4(titulo="La Resolución 3280 de 2018")
+            .row
+              .col-12
+                p #[b La Resolución 3280 de 2018] adopta los lineamientos técnicos y operativos de la Ruta Integral de Atención para la Promoción y Mantenimiento de la Salud que parte de prevenir riesgos y mantener la salud.
+      .col-lg-4
+        figure(data-aos="zoom-in-up")
+          img(src='@/assets/curso/tema2/img10.png').m-auto
+    p.mb-5 Además, comprende acciones, sectoriales e intersectoriales, con tres clases de intervenciones, a saber:
+    .row.mb-5
+      .col-lg-5.mb-4.mb-lg-0
+        figure(data-aos="zoom-in")
+          img(src='@/assets/curso/tema2/img11.png').m-auto
+      .col-lg-7
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+          .row(titulo="Intervenciones poblacionales")
+            .col-12
+              p Con atenciones dirigidas en su conjunto para que modifiquen entornos, contextos y condiciones sociales, económicas culturales o ambientales para potenciar la salud, el bienestar y el desarrollo humano a través de mecanismos como: políticas públicas, normas, participación social, información en salud con medios masivos.
+          .row(titulo="Intervenciones colectivas")
+            .col-12
+              p Son las definidas en el Plan de Intervenciones Colectivas PIC dirigidas a impactar positivamente los determinantes sociales con procedimientos o actividades para la promoción de la salud y gestión del riesgo; están dirigidas a grupos de población a lo largo del curso de vida, estas intervenciones se definen con fundamento a las prioridades en salud.
+          .row(titulo="Intervenciones individuales")
+            .col-12
+              p Con atenciones en salud dirigidas a la persona o familia con la finalidad de atención integral, detección temprana y protección específica, educación para la salud, diagnóstico, tratamiento, rehabilitación y paliación.
+    .row
+      .col-lg-6.mb-4.mb-lg-0
+        p.mb-4 En cuanto a la #[span.txt-deco1 gestión del riesgo] en salud pública y de acuerdo con la Resolución 5159 de 2015, capítulo 5, aparte 5.2, es entendida como el proceso que permite analizar e intervenir riesgos colectivos en salud, así como la percepción de la población frente a las amenazas y vulnerabilidades, y afrontar la incertidumbre que consiste en disminuir o mantener la ocurrencia de eventos negativos para la salud en niveles socialmente aceptables a través de estrategias de prevención o mitigación; esta gestión incluye:
+        ul.lista-ul--color.lista-ul
+          li 
+            i.fas.fa-check-circle(style="color: #133D60")
+            | Análisis de riesgo.
+          li 
+            i.fas.fa-check-circle(style="color: #133D60")
+            | Planeación de la atención según riesgos con enfoque diferencial.
+          li 
+            i.fas.fa-check-circle(style="color: #133D60")
+            | Modificación del riesgo.
+          li 
+            i.fas.fa-check-circle(style="color: #133D60")
+            | Vigilancia de la gestión del riesgo.
+          li 
+            i.fas.fa-check-circle(style="color: #133D60")
+            | Gestión de la calidad de la atención.
+        p Cada una de las entidades descritas en la Resolución 5159 de 2015 tienen responsabilidades en materia de salud pública, específicamente en cuanto a la promoción de la salud, la gestión del riesgo y la gestión del riesgo en salud pública. 
+      .col-lg-6
+        figure(data-aos="zoom-in-up")
+          img(src='@/assets/curso/tema2/img12.png').m-auto
 
 </template>
 
