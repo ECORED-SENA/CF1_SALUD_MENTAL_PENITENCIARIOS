@@ -45,9 +45,9 @@
                 .col-12(style="height: 120px")
                   p.text-center.txt-deco3 Ministerio de Salud y Protección Social
                 .col-12
-                  p.text-white - Lineamiento nacional de prevención del consumo de sustancias psicoactivas.
-                  p.text-white - Manual de Gestión Integrada para la Atención Integral y Diferenciada de la Salud Mental de la Población Privada de la Libertad.
-                  p.text-white - Prevención de la Conducta Suicida en Colombia Estrategia Nacional.
+                  p.mb-0.text-white - Lineamiento nacional de prevención del consumo de sustancias psicoactivas.
+                  p.mb-0.text-white - Manual de Gestión Integrada para la Atención Integral y Diferenciada de la Salud Mental de la Población Privada de la Libertad.
+                  p.mb-0.text-white - Prevención de la Conducta Suicida en Colombia Estrategia Nacional.
                   p.text-white - ABECE sobre la salud mental, sus trastornos y estigma.
           .col-lg-4.bg-color4
             .p-4
@@ -58,10 +58,10 @@
                 .col-12(style="height: 120px")
                   p.text-center.txt-deco3 Instituto Nacional Penitenciario y Carcelario INPEC y la Unidad de Servicios Penitenciarios y Carcelarios USPEC
                 .col-12
-                  p.text-white - Manual técnico administrativo para la implementación del modelo de atención en salud de la población privada de la libertad a cargo del INPEC V01.
-                  p.text-white - Guía de asistencia psicológica PM-AS-G 13.
-                  p.text-white - Guía para la Atención Psicojuridica PM-AS-G09.
-                  p.text-white - Guía Atención en Crisis Emocional PM-AS-G08.
+                  p.mb-0.text-white - Manual técnico administrativo para la implementación del modelo de atención en salud de la población privada de la libertad a cargo del INPEC V01.
+                  p.mb-0.text-white - Guía de asistencia psicológica PM-AS-G 13.
+                  p.mb-0.text-white - Guía para la atención psicojuridica PM-AS-G09.
+                  p.mb-0.text-white - Guía atención en crisis emocional PM-AS-G08.
                   p.text-white - Lineamiento programa preservación de la vida.
           .col-lg-4.bg-color3
             .p-4
@@ -72,8 +72,8 @@
                 .col-12(style="height: 120px")
                   p.text-center.txt-deco3 Ministerio de Justicia y de Derecho
                 .col-12
-                  p.text-white - Ruta futuro: política integral para enfrentar el problema de las drogas 2018 (Prevenir los factores de riesgo frente al consumo de sustancias psicoactivas).
-                  p.text-white - Marco técnico de acción para la reducción del consumo de sustancias psicoactivas en el sistema penitenciario y carcelario.
+                  p.mb-0.text-white - Ruta futuro: política integral para enfrentar el problema de las drogas 2018 (Prevenir los factores de riesgo frente al consumo de sustancias psicoactivas).
+                  p.text-white - Marco técnico: de acción para la reducción del consumo de sustancias psicoactivas en el sistema penitenciario y carcelario.
         .row.mb-5
           .col-auto
             p.txt-deco2 Referentes nacionales e internacionales
@@ -83,10 +83,10 @@
               img(src='@/assets/curso/intro/img1.svg').m-auto
           .col
             p Existen diferentes referentes nacionales e internacionales que trabajan sobre salud mental y que son un recurso importante para desarrollar y planificar servicios de salud mental dentro del país, a saber:
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 #[b Tabla 1] Instituciones y aportes en salud mental
         .row.align-items-center
           .col-lg-7.mb-4.mb-lg-0
-            .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Tabla 1.] Instituciones y aportes en salud mental
             .tabla-b.color-acento-contenido
               table
                 tr
@@ -113,7 +113,7 @@
     #t_1_1
     .titulo-segundo.color-secundario
       h2 1.1 Trastornos prevalentes
-    .row.align-items-end.mb-5
+    .row.align-items-start.mb-5
       .col-lg-6.mb-4.mb-lg-0
         p Globalmente los trastornos mentales son más comunes en los varones. Sin embargo, al examinar la prevalencia por país se encuentra que la depresión, ansiedad, trastornos alimenticios y el trastorno bipolar son más prevalentes en las mujeres. A continuación se conocerán los trastornos prevalentes en la población privada de la libertad.
         p #[span.txt-deco1 El Examen Médico de Ingreso (EMI)] busca identificar el estado físico, mental y las patologías asociadas para identificar eventos de interés en salud pública. 
@@ -140,9 +140,9 @@
     .row.bg-color5.mb-5
       .col-12.p-5
         .row.align-items-center.justify-content-center
-          .col-4
-            h4 Las consultas solicitadas (y en seguimiento) por personas privadas de la libertad fueron relacionadas:
-          .col-6
+          .col-lg-4.mb-4.mb-lg-0
+            p.mb-0 #[b Las consultas solicitadas (y en seguimiento) por personas privadas de la libertad fueron relacionadas:]
+          .col-lg-6
             figure(data-aos="flip-right")
               img(src='@/assets/curso/tema1/img4.svg', style="width: 550px").m-auto
     p.mb-5 Con lo anterior se puede identificar que en la población privada de la libertad en tratamiento médico psiquiátrico, la prevalencia de diagnóstico de patología mental a corte de octubre 2021 se relaciona con los trastornos mentales y del comportamiento, debido al uso de sustancias psicoactivas seguido de los trastornos de ansiedad como se lee en la tabla a continuación:
@@ -154,28 +154,28 @@
               img(src='@/assets/curso/tema1/img9.png').m-auto
           .col-lg-7
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Tabla 2.] Diagnósticos más prevalentes atendidos por el servicio de psiquiatría septiembre 2021
+              p.mb-0 #[b Tabla 2] Diagnósticos más prevalentes atendidos por el servicio de psiquiatría septiembre 2021
             .tabla-b.color-acento-contenido
               table
                 caption Nota. Elaboración propia según IPS base de datos salud mental, septiembre 2021
                 tr
                   th.text-center(style="background-color: #FCD189") Diagnósticos
                   th.text-center(style="background-color: #FCD189") Número PPL diagnosticada
-                tr
+                tr(style="background-color: #F6F6F6")
                   td Trastornos mentales y del comportamiento debido al uso de sustancias psicoactivas
-                  td 1.898
-                tr
+                  td.text-center 1.898
+                tr(style="background-color: #FFFFFF")
                   td Trastornos de ansiedad
-                  td 530
-                tr
+                  td.text-center 530
+                tr(style="background-color: #F6F6F6")
                   td Esquizofrenia
-                  td 418
-                tr
+                  td.text-center 418
+                tr(style="background-color: #FFFFFF")
                   td Trastornos bipolares
-                  td 227
-                tr
+                  td.text-center 227
+                tr(style="background-color: #F6F6F6")
                   td Trastornos depresivos
-                  td 179
+                  td.text-center 179
         separador
         #t_1_2
         .titulo-segundo.color-secundario
@@ -189,12 +189,12 @@
         .row.justify-content-center.mb-5
           .col-lg-7
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Tabla 3.] PPL atendida por el servicio de psiquiatría septiembre 2021
+              p.mb-0 #[b Tabla 3] PPL atendida por el servicio de psiquiatría septiembre 2021
             .tabla-b.color-acento-contenido
               table
                 caption Nota. Elaboración propia según la base de datos patología mental - septiembre 2021
                 tr
-                  th.text-center(style="background-color: #FCD189", rowspan="2") Diagnósticos
+                  th.text-center(style="background-color: #FCD189", rowspan="2") Regionales
                   th.text-center(style="background-color: #FCD189", colspan="2") Total sexo por regional
                 tr
                   th.text-center(style="background-color: #FCD189") Masculino
@@ -237,7 +237,7 @@
                   td.text-center 0
                 tr
                   td Ejército
-                  td.text-center 0
+                  td.text-center 26
                   td.text-center 0
                 tr
                   th Total sexo
