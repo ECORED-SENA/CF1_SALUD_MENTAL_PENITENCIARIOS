@@ -129,11 +129,11 @@
           .col-lg-7
             p.mb-4 La ruta de atención que se debe seguir para las víctimas de violencia sexual es:
             LineaTiempoD.color-acento-contenido
-              p.text-small(numero="1" titulo="Paso 1: Ingreso por consulta externa medicina general") Ingreso por consulta externa medicina general: valoración correspondiente a partir del reporte del usuario.
-              p.text-small(numero="2" titulo="Paso 2: Remisión psicología clínica") El profesional que atiende la consulta remite a valoración por psicología clínica, dicho profesional define el tratamiento y la consecuente activación de la ruta de atención general en salud mental, además de la posible referencia a psiquiatría.
-              p.text-small(numero="3" titulo="Paso 3: Comunicación ERON y al Inpec") El trabajador social comunicará a la dirección del ERON la condición del interno para que se active la ruta articulada con el Inpec (atención y tratamiento, psicosocial y/o educativas) para la inclusión del interno en alguno de los programas institucionales.
-              p.text-small(numero="4" titulo="Paso 4: Ruta de ingreso se realice por PyP") En caso de que la ruta de ingreso se realice por PyP (promoción de la salud y la prevención de la enfermedad), el profesional encargado realiza la identificación primaria y la remisión a psicología clínica dando a conocer el respectivo seguimiento al proceso.
-              p.text-small(numero="5" titulo="Paso 5: Valoración del interno") El profesional en psicología clínica valora al interno y define el tratamiento, dentro del cual analiza la posibilidad de remitir a uno o varios profesionales del grupo interdisciplinario en salud mental y/o la activación de la ruta general de salud mental.
+              p.text-small(numero="1" titulo="Paso 1: ingreso por consulta externa medicina general") Ingreso por consulta externa medicina general: valoración correspondiente a partir del reporte del usuario.
+              p.text-small(numero="2" titulo="Paso 2: remisión psicología clínica") El profesional que atiende la consulta remite a valoración por psicología clínica, dicho profesional define el tratamiento y la consecuente activación de la ruta de atención general en salud mental, además de la posible referencia a psiquiatría.
+              p.text-small(numero="3" titulo="Paso 3: comunicación ERON y al Inpec") El trabajador social comunicará a la dirección del ERON la condición del interno para que se active la ruta articulada con el Inpec (atención y tratamiento, psicosocial y/o educativas) para la inclusión del interno en alguno de los programas institucionales.
+              p.text-small(numero="4" titulo="Paso 4: ruta de ingreso se realice por PyP") En caso de que la ruta de ingreso se realice por PyP (promoción de la salud y la prevención de la enfermedad), el profesional encargado realiza la identificación primaria y la remisión a psicología clínica dando a conocer el respectivo seguimiento al proceso.
+              p.text-small(numero="5" titulo="Paso 5: valoración del interno") El profesional en psicología clínica valora al interno y define el tratamiento, dentro del cual analiza la posibilidad de remitir a uno o varios profesionales del grupo interdisciplinario en salud mental y/o la activación de la ruta general de salud mental.
         .row
           .col-lg-8.mb-4.mb-lg-0
             .row.mb-4
@@ -271,36 +271,32 @@
           .col-8.bg-color9
             .p-4
               p Tiene como #[span.txt-deco1 objetivo] definir los lineamientos necesarios para la prestación de los servicios de salud a la Población Privada de la Libertad (PPL) a cargo del INPEC, para garantizar, a través de su implementación, la continuidad, integralidad, integridad y los criterios de calidad que exige la legislación vigente, con un enfoque preventivo.
+    img.img-deco1(src='@/assets/curso/tema2/img30.svg')
     .row.mb-5
-      .col-lg-4
+      .col-lg-4.px-0
         img(src='@/assets/curso/tema2/img9.png').m-auto
-      .col-lg-7
-        .row.mx-0
-          .col-12.bg-color11
-            .p-4
-              h4.txt-deco1.mb-4 Cuenta con objetivos específicos que son:
-              ul.lista-ul--color.lista-ul
-                li 
-                  i.fas.fa-check-circle(style="color: #133D60")
-                  | Garantizar los servicios de salud al cien por ciento de la población privada de la libertad a cargo del Fondo Nacional de Salud.
-                li 
-                  i.fas.fa-check-circle(style="color: #133D60")
-                  | Garantizar la articulación exigida por la normatividad vigente con las EPS y entidades que administren fondos especiales, para la atención en salud de la población privada de la libertad afiliada a los regímenes: contributivo, especial y de excepción.
-                li 
-                  i.fas.fa-check-circle(style="color: #133D60")
-                  | Definir las acciones para la implementación de las responsabilidades de cada uno de los actores en salud, del sistema penitenciario y carcelario, según la legislación vigente.
-                li 
-                  i.fas.fa-check-circle(style="color: #133D60")
-                  | Realizar las intervenciones colectivas en salud pública que corresponden, en los ERON a cargo del Inpec.
-                li 
-                  i.fas.fa-check-circle(style="color: #133D60")
-                  | Implementar un sistema de calidad que permita monitorear de forma permanente la prestación de los servicios de salud que se le brindan a la población privada de la libertad, ya sean intramurales o externos.
-                li 
-                  i.fas.fa-check-circle(style="color: #133D60")
-                  | Promover el mejoramiento continuo en la prestación de los servicios de salud por medio de la evaluación periódica de los procesos, que permitan orientar e implementar las acciones de mejora requeridas.
-      .col-1.d-none.d-lg-block
-        figure
-          img(src='@/assets/curso/tema2/img30.svg')
+      .bg-color11
+        .p-4
+          h4.txt-deco1.mb-4 Cuenta con objetivos específicos que son:
+          ul.lista-ul--color.lista-ul
+            li.mb-0
+              i.fas.fa-check-circle(style="color: #133D60")
+              | Garantizar los servicios de salud al cien por ciento de la población privada de la libertad a cargo del Fondo Nacional de Salud.
+            li.mb-0
+              i.fas.fa-check-circle(style="color: #133D60")
+              | Garantizar la articulación exigida por la normatividad vigente con las EPS y entidades que administren fondos especiales, para la atención en salud de la población privada de la libertad afiliada a los regímenes: contributivo, especial y de excepción.
+            li.mb-0
+              i.fas.fa-check-circle(style="color: #133D60")
+              | Definir las acciones para la implementación de las responsabilidades de cada uno de los actores en salud, del sistema penitenciario y carcelario, según la legislación vigente.
+            li.mb-0
+              i.fas.fa-check-circle(style="color: #133D60")
+              | Realizar las intervenciones colectivas en salud pública que corresponden, en los ERON a cargo del Inpec.
+            li.mb-0
+              i.fas.fa-check-circle(style="color: #133D60")
+              | Implementar un sistema de calidad que permita monitorear de forma permanente la prestación de los servicios de salud que se le brindan a la población privada de la libertad, ya sean intramurales o externos.
+            li.mb-0
+              i.fas.fa-check-circle(style="color: #133D60")
+              | Promover el mejoramiento continuo en la prestación de los servicios de salud por medio de la evaluación periódica de los procesos, que permitan orientar e implementar las acciones de mejora requeridas.
     .row
       .col-lg-7.mb-4.mb-lg-0
         p.mb-4 El documento se aplica a nivel nacional en todos los establecimientos de reclusión para la prestación de los servicios de salud a la población privada de la libertad (PPL) a cargo del Inpec e inicia con el examen de ingreso y finaliza con el examen de egreso. #[span.txt-deco1 Este es un documento interinstitucional con responsabilidades de los actores del Fondo Nacional de Salud PPL, conforme a lo establecido en el Decreto 2245 de 2015 y 1142 de 2016].

@@ -9,11 +9,11 @@
       h1 Salud mental
     .row.mb-5
       .col-lg-4.mb-4.mb-lg-0
-        p La salud mental es un componente integral y esencial de la salud y la Organización Mundial de la Salud (OMS) describe la salud mental como:
-        .bloque-texto-c.color-secundario.p-4
-          i.fas.fa-quote-right
-          h5.mb-2 Un estado de bienestar en el cual el individuo se da cuenta de sus propias aptitudes. Puede afrontar las presiones normales de la vida, puede trabajar productiva y fructíferamente y es capaz de hacer una contribución a su comunidad.
-          span.d-flex.justify-content-end.me-5 (OMS, 2020, p. 6).
+        p.mb-4 La salud mental es un componente integral y esencial de la salud y la Organización Mundial de la Salud (OMS) describe la salud mental como:
+        .bloque-texto-c.color-secundario.px-4.pt-4
+          i.fas.fa-quote-right(style="color: #FFC35E").mb-3
+          h5.mb-2(style="color: #133D60") Un estado de bienestar en el cual el individuo se da cuenta de sus propias aptitudes. Puede afrontar las presiones normales de la vida, puede trabajar productiva y fructíferamente y es capaz de hacer una contribución a su comunidad.
+          span.d-flex.justify-content-end.me-5.mb-0 (OMS, 2020, p. 6).
       .col-lg-4.mb-4.mb-lg-0
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img1.png').m-auto
@@ -28,7 +28,7 @@
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img2.png').m-auto
       .col-lg-6.mb-4.mb-lg-0
-        p La salud mental incluye el bienestar emocional, psicológico y social que afecta la forma en que se piensa y actúa, también ayuda a determinar cómo se maneja el estrés, la relación con los demás y las decisiones que se toman. Además, la salud mental es importante en todas las etapas de la vida, desde la niñez y la adolescencia hasta la edad adulta.
+        p La salud mental incluye el bienestar emocional, psicológico y social que afecta la forma en que se piensa y actúa, también ayuda a determinar cómo se maneja el estrés, la relación con los demás y las decisiones que se toman. #[span.txt-deco1 Además, la salud mental es importante en todas las etapas de la vida, desde la niñez y la adolescencia hasta la edad adulta].
         .row
           .col-auto
             p.txt-deco2 Lineamientos
@@ -48,7 +48,7 @@
                   p.mb-0.text-white - Lineamiento nacional de prevención del consumo de sustancias psicoactivas.
                   p.mb-0.text-white - Manual de Gestión Integrada para la Atención Integral y Diferenciada de la Salud Mental de la Población Privada de la Libertad.
                   p.mb-0.text-white - Prevención de la Conducta Suicida en Colombia Estrategia Nacional.
-                  p.text-white - ABECE sobre la salud mental, sus trastornos y estigma.
+                  p.text-white - ABECÉ sobre la salud mental, sus trastornos y estigma.
           .col-lg-4.bg-color4
             .p-4
               .row.my-4
@@ -60,7 +60,7 @@
                 .col-12
                   p.mb-0.text-white - Manual técnico administrativo para la implementación del modelo de atención en salud de la población privada de la libertad a cargo del INPEC V01.
                   p.mb-0.text-white - Guía de asistencia psicológica PM-AS-G 13.
-                  p.mb-0.text-white - Guía para la atención psicojuridica PM-AS-G09.
+                  p.mb-0.text-white - Guía para la atención psicojurídica PM-AS-G09.
                   p.mb-0.text-white - Guía atención en crisis emocional PM-AS-G08.
                   p.text-white - Lineamiento programa preservación de la vida.
           .col-lg-4.bg-color3
@@ -73,7 +73,7 @@
                   p.text-center.txt-deco3 Ministerio de Justicia y de Derecho
                 .col-12
                   p.mb-0.text-white - Ruta futuro: política integral para enfrentar el problema de las drogas 2018 (Prevenir los factores de riesgo frente al consumo de sustancias psicoactivas).
-                  p.text-white - Marco técnico: de acción para la reducción del consumo de sustancias psicoactivas en el sistema penitenciario y carcelario.
+                  p.text-white - Marco técnico de acción: para la reducción del consumo de sustancias psicoactivas en el sistema penitenciario y carcelario.
         .row.mb-5
           .col-auto
             p.txt-deco2 Referentes nacionales e internacionales
@@ -117,7 +117,7 @@
       .col-lg-6.mb-4.mb-lg-0
         p Globalmente los trastornos mentales son más comunes en los varones. Sin embargo, al examinar la prevalencia por país se encuentra que la depresión, ansiedad, trastornos alimenticios y el trastorno bipolar son más prevalentes en las mujeres. A continuación se conocerán los trastornos prevalentes en la población privada de la libertad.
         p #[span.txt-deco1 El Examen Médico de Ingreso (EMI)] busca identificar el estado físico, mental y las patologías asociadas para identificar eventos de interés en salud pública. 
-        p.mb-0 La #[span.txt-deco1 promoción de la salud y prevención de la enfermedad, la detección precoz, la demanda inducida] a los servicios y determinar las necesidades de atención en salud, contribuyendo a la estrategia de gestión del riesgo en salud, como puerta de entrada al modelo de atención en salud con enfoque de atención primaria, al ingreso de las personas privadas de la libertad a los Establecimientos de Reclusión de Orden Nacional (ERON)  a cargo del Instituto Nacional Penitenciario y Carcelario (Inpec).
+        p.mb-0 La #[span.txt-deco1 promoción de la salud y prevención de la enfermedad, la detección precoz, la demanda inducida] a los servicios y determinar las necesidades de atención en salud, contribuyendo a la estrategia de gestión del riesgo en salud, como puerta de entrada al modelo de atención en salud con enfoque de atención primaria, al ingreso de las personas privadas de la libertad a los Establecimientos de Reclusión de Orden Nacional (ERON)  a cargo del Instituto Nacional Penitenciario y Carcelario (INPEC).
       .col-lg-6
         figure(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema1/img7.png').m-auto
@@ -131,7 +131,7 @@
             figure
               img(src='@/assets/curso/intro/img1.svg', style="width: 120px").m-auto
           .col
-            p #[span.txt-deco1 Es preciso citar los resultados del Estudio nacional de consumo de sustancias psicoactivas en población privada de la libertad - PPL (2016)] en el cual se encontró que se presenta un nivel de consumo de sustancias ilícitas superior a la población general.
+            p #[span.txt-deco1 Es preciso citar los resultados del #[i Estudio nacional de consumo de sustancias psicoactivas en población privada de la libertad - PPL] (2016)] en el cual se encontró que se presenta un nivel de consumo de sustancias ilícitas superior a la población general.
         p El consumo de cualquier sustancia ilícita en el último año en población privada de la libertad es superior cerca de nueve veces a la población general.
         figure.my-4
           img(src='@/assets/curso/tema1/img2.svg', style="width: 350px").m-auto
@@ -181,9 +181,9 @@
         .titulo-segundo.color-secundario
           h2 1.2 Atención a población privada de la libertad
         .row.mb-5
-          .col-lg-7.mb-4.mb-lg-0
-            p La prestación de los servicios de salud de la población privada de la libertad intramural (PPL), se realiza conforme a lo establecido en la Resolución 3595 de 2016, con cargo a los recursos del Fondo Nacional de Atención en Salud para la Población Privada de la Libertad que son administrados por la Unidad de Servicios Penitenciarios y Carcelarios (Uspec) a través de la contratación de una entidad fiduciaria, en este caso Fiduciaria Central S.A., quien realiza la contratación de dos instituciones prestadoras de los servicios de salud, IPS Clínica Nuestra Señora de la Paz, IPS Clínica Basilia para la atención médica psiquiátrica al interior de los establecimientos de reclusión, las cuales reportan en base de datos mensualmente el número de privados de la libertad diagnosticados con patología mental de la siguiente manera:
-          .col-lg-5
+          .col-lg-6.mb-4.mb-lg-0
+            p La prestación de los servicios de salud de la población privada de la libertad intramural (PPL), se realiza conforme a lo establecido en la Resolución 3595 de 2016, con cargo a los recursos del Fondo Nacional de Atención en Salud para la Población Privada de la Libertad que son administrados por la Unidad de Servicios Penitenciarios y Carcelarios (USPEC) a través de la contratación de una entidad fiduciaria, en este caso Fiduciaria Central S.A., quien realiza la contratación de dos instituciones prestadoras de los servicios de salud, IPS Clínica Nuestra Señora de la Paz, IPS Clínica Basilia para la atención médica psiquiátrica al interior de los establecimientos de reclusión, las cuales reportan en base de datos mensualmente el número de privados de la libertad diagnosticados con patología mental de la siguiente manera:
+          .col-lg-6
             figure(data-aos="zoom-in-up")
               img(src='@/assets/curso/tema1/img10.png').m-auto
         .row.justify-content-center.mb-5
@@ -195,58 +195,58 @@
                 caption Nota. Elaboración propia según la base de datos patología mental - septiembre 2021
                 tr
                   th.text-center(style="background-color: #FCD189", rowspan="2") Regionales
-                  th.text-center(style="background-color: #FCD189", colspan="2") Total sexo por regional
+                  th.text-center(style="background-color: #FCD189; border-left: 3px solid #d6d9db", colspan="2") Total sexo por regional
                 tr
-                  th.text-center(style="background-color: #FCD189") Masculino
-                  th.text-center(style="background-color: #FCD189") Femeninos
+                  th.text-center(style="background-color: #FCD189; border-left: 3px solid #d6d9db; border-top: 3px solid #d6d9db") Masculino
+                  th.text-center(style="background-color: #FCD189; border-left: 3px solid #d6d9db; border-top: 3px solid #d6d9db") Femeninos
                 tr
                   td Central
-                  td.text-center 1.641
-                  td.text-center 164
+                  td(style="border-left: 3px solid #d6d9db").text-center 1.641
+                  td(style="border-left: 3px solid #d6d9db").text-center 164
                 tr
                   td Occidente
-                  td.text-center 851
-                  td.text-center 87
+                  td(style="border-left: 3px solid #d6d9db").text-center 851
+                  td(style="border-left: 3px solid #d6d9db").text-center 87
                 tr
                   td Norte
-                  td.text-center 402
-                  td.text-center 11
+                  td(style="border-left: 3px solid #d6d9db").text-center 402
+                  td(style="border-left: 3px solid #d6d9db").text-center 11
                 tr
                   td Oriente
-                  td.text-center 322
-                  td.text-center 75
+                  td(style="border-left: 3px solid #d6d9db").text-center 322
+                  td(style="border-left: 3px solid #d6d9db").text-center 75
                 tr
                   td Noroeste
-                  td.text-center 547
-                  td.text-center 110
+                  td(style="border-left: 3px solid #d6d9db").text-center 547
+                  td(style="border-left: 3px solid #d6d9db").text-center 110
                 tr
                   td Viejo caldas
-                  td.text-center 693
-                  td.text-center 124
+                  td(style="border-left: 3px solid #d6d9db").text-center 693
+                  td(style="border-left: 3px solid #d6d9db").text-center 124
                 tr
                   td EPCS externos
-                  td.text-center 0
-                  td.text-center 0
+                  td(style="border-left: 3px solid #d6d9db").text-center 0
+                  td(style="border-left: 3px solid #d6d9db").text-center 0
                 tr
                   td Fuerza aérea
-                  td.text-center 0
-                  td.text-center 0
+                  td(style="border-left: 3px solid #d6d9db").text-center 0
+                  td(style="border-left: 3px solid #d6d9db").text-center 0
                 tr
                   td Policía
-                  td.text-center 0
-                  td.text-center 0
+                  td(style="border-left: 3px solid #d6d9db").text-center 0
+                  td(style="border-left: 3px solid #d6d9db").text-center 0
                 tr
                   td Ejército
-                  td.text-center 26
-                  td.text-center 0
+                  td(style="border-left: 3px solid #d6d9db").text-center 26
+                  td(style="border-left: 3px solid #d6d9db").text-center 0
                 tr
                   th Total sexo
-                  th.text-center 4.482
-                  th.text-center 571
+                  th(style="border-left: 3px solid #d6d9db").text-center 4.482
+                  th(style="border-left: 3px solid #d6d9db").text-center 571
                 tr
                   th Total general 
-                  th.text-center 5.053
-                  th.text-center
+                  th(style="border-left: 3px solid #d6d9db").text-center 5.053
+                  th(style="border-left: 3px solid #d6d9db").text-center
         .row.mb-5
           .col-lg-5.mb-4.mb-lg-0
             figure(data-aos="zoom-in")
@@ -291,7 +291,7 @@
             figure
               img(src='@/assets/curso/tema1/img7.svg', style="width: 80px").m-auto
           .col
-            p.mb-0 En consecuencia, los lineamientos generales para la atención integral e integrada en salud y las intervenciones individuales y colectivas, definidas en la normatividad vigente, con miras a la prevención de la enfermedad de la población privada de la libertad a cargo del Inpec, se encuentran definidas en el Manual Técnico Administrativo. 
+            p.mb-0 En consecuencia, los lineamientos generales para la atención integral e integrada en salud y las intervenciones individuales y colectivas, definidas en la normatividad vigente, con miras a la prevención de la enfermedad de la población privada de la libertad a cargo del INPEC, se encuentran definidas en el Manual Técnico Administrativo. 
   
 </template>
 

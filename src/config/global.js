@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Lineamientos y marco normativo',
+    componenteFormativo: 'Lineamientos y marco<br>normativo',
     descripcionCurso:
       'Reconocer y comprender la salud mental en los entornos penitenciarios, de acuerdo con la legislación vigente, en garantía del derecho a la atención integral en salud mental y calidad de vida para la población privada de la libertad. Así como identificar la ruta integral de atención en salud mental y las guías de manejo en salud, propuestas por el Ministerio de Salud y de la Protección Social.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),

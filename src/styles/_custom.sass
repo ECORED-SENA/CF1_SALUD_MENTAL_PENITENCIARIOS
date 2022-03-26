@@ -70,10 +70,25 @@
   border: none
 
 .banner-principal__img
-  width: 350px
+  width: 460px
 
 table caption
   font-weight: normal
+
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
+  background-color: #133d60
+  i
+    color: #FFFFFF
+
+.banner-principal__componente h1
+  line-height: 0.5em
+  padding-bottom: 30px
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+  padding-bottom: 30px
+
+.bloque-texto-c::after
+  background-color: #FFC35E
 
 .bg-color1
   background-color: #FFEED2
@@ -123,6 +138,7 @@ table caption
   position: relative
   top: 20px
   right: 60px
+  width: 800px
 
 .bg-color12
   background-image: url(../assets/curso/tema2/img33.svg)
@@ -150,8 +166,28 @@ table caption
 .txt-deco5
   color: #AED4F5
 
+.img-deco1
+  width: 65px
+  position: relative
+  left: 95%
+  top: 67px
+
+@media screen and ( max-width: 1400px )
+
+  .bg-color11
+    width: 680px
+
+@media screen and ( max-width: 1200px )
+
+  .bg-color11
+    width: 570px
+
 @media screen and ( max-width: 992px )
 
   .bg-color11
     top: 0px
     right: 0px
+    width: auto
+
+  .img-deco1
+    display: none 
