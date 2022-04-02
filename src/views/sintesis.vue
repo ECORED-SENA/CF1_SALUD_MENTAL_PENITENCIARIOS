@@ -3,8 +3,10 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    figure
-      img(src="@/assets/curso/sintesis.svg", alt="alt")
+    .row.justify-content-center
+      .col-lg-10
+        figure
+          img(src="@/assets/curso/sintesis.svg", alt="alt")
 
 </template>
 

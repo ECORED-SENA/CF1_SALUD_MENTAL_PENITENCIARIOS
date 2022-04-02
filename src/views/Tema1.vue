@@ -93,20 +93,20 @@
                   th.text-center(style="background-color: #FCD189") Instituciones
                   th.text-center(style="background-color: #FCD189") Aporte
                 tr
-                  th Ministerio de Justicia y del Derecho
-                  td Creación de normas y lineamientos.
+                  th.txt-deco6 Ministerio de Justicia y del Derecho
+                  td.txt-deco7 Creación de normas y lineamientos.
                 tr
-                  th Naciones Unidas Contra las Drogas y el Delito
-                  td Elaboración e implementación ruta futuro.
+                  th.txt-deco6 Naciones Unidas Contra las Drogas y el Delito
+                  td.txt-deco7 Elaboración e implementación ruta futuro.
                 tr
-                  th Secretarías de salud a nivel nacional
-                  td Sistema de Salud Pública (SIVIGILA) observación y análisis de los eventos en salud - (seguimiento a las notificaciones, intentos de suicidio.
+                  th.txt-deco6 Secretarías de salud a nivel nacional
+                  td.txt-deco7 Sistema de Salud Pública (SIVIGILA) observación y análisis de los eventos en salud - (seguimiento a las notificaciones, intentos de suicidio.
                 tr
-                  th Comité Internacional de la Cruz Roja - CICR
-                  td Elaboración de publicidad educativa para el desarrollo de actividades de prevención y promoción para la PPL al interior de los ERON (Establecimiento de Reclusión del Orden Nacional).
+                  th.txt-deco6 Comité Internacional de la Cruz Roja - CICR
+                  td.txt-deco7 Elaboración de publicidad educativa para el desarrollo de actividades de prevención y promoción para la PPL al interior de los ERON (Establecimiento de Reclusión del Orden Nacional).
                 tr
-                  th Organización Mundial de Salud
-                  td Establece normas para el control de enfermedades.
+                  th.txt-deco6 Organización Mundial de Salud
+                  td.txt-deco7 Establece normas para el control de enfermedades.
           .col-lg-5
             figure(data-aos="zoom-in-up")
               img(src='@/assets/curso/tema1/img6.png').m-auto
