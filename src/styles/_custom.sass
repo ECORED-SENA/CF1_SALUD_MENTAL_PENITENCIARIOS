@@ -178,6 +178,35 @@ table caption
   left: 95%
   top: 67px
 
+.banner-principal__img
+  background-image: url("../assets/curso/portada/float3.svg"), url("../assets/curso/portada/float2.svg"), url("../assets/curso/portada/float1.svg"), url("../assets/curso/portada/banner-princiapal.png")
+  align-self: stretch
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat
+  background-position: 17% 85%, 90% 62%, 22% 40%, 50% 50%
+  background-size: 15%, 15%, 15%, 90%
+  animation: Flitp 6s ease infinite
+  img
+    display: none !important
+
+@media only screen and (max-width: 1199px)
+  .banner-principal .tarjeta
+    background-size: auto
+    background-position: 0
+    background-repeat: no-repeat
+
+@keyframes Flitp
+  0%
+    background-image: url("../assets/curso/portada/float3.svg"), url("../assets/curso/portada/float2.svg"), url("../assets/curso/portada/float1.svg"), url("../assets/curso/portada/banner-princiapal.png")
+  25%
+    background-image: url("../assets/curso/portada/float3.svg"), url("../assets/curso/portada/float2.svg"), url("../assets/curso/portada/float1.svg"), url("../assets/curso/portada/banner-princiapal.png")
+  50%
+    background-image: url("../assets/curso/portada/float3.svg"), url("../assets/curso/portada/float2.svg"), url("../assets/curso/portada/float1.svg"), url("../assets/curso/portada/banner-princiapal.png")
+    background-position: 30% 85%, 90% 40%, 22% 20%, 20% 50%
+  75%
+    background-image: url("../assets/curso/portada/float3.svg"), url("../assets/curso/portada/float2.svg"), url("../assets/curso/portada/float1.svg"), url("../assets/curso/portada/banner-princiapal.png")
+  100%
+    background-image: url("../assets/curso/portada/float3.svg"), url("../assets/curso/portada/float2.svg"), url("../assets/curso/portada/float1.svg"), url("../assets/curso/portada/banner-princiapal.png")
+
 @media screen and ( max-width: 1400px )
 
   .bg-color11
@@ -188,6 +217,9 @@ table caption
   .bg-color11
     width: 570px
 
+  .banner-principal__img
+    width: 380px
+
 @media screen and ( max-width: 992px )
 
   .bg-color11
@@ -196,4 +228,4 @@ table caption
     width: auto
 
   .img-deco1
-    display: none 
+    display: none
