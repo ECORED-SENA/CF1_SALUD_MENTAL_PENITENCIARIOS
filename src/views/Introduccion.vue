@@ -16,7 +16,7 @@
         p Este componente formativo tiene como finalidad incorporar en los aprendices elementos normativos en salud mental, desarrollados por las diferentes entidades del orden nacional e internacional, #[span.txt-deco1 así como la comprensión de lineamientos y guías establecidas por el Instituto Nacional Penitenciario y Carcelario para el tratamiento penitenciario de las personas privadas de la libertad].
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/6dk5zJzBBBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 
