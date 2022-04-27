@@ -129,7 +129,7 @@
           .col-lg-7
             p.mb-4 La ruta de atención que se debe seguir para las víctimas de violencia sexual es:
             LineaTiempoD.color-acento-contenido
-              p.text-small(numero="1" titulo="Paso 1: ingreso por consulta externa medicina general") Ingreso por consulta externa medicina general: valoración correspondiente a partir del reporte del usuario.
+              p.text-small(numero="1" titulo="Paso 1: ingreso por consulta externa medicina general") Valoración correspondiente a partir del reporte del usuario.
               p.text-small(numero="2" titulo="Paso 2: remisión psicología clínica") El profesional que atiende la consulta remite a valoración por psicología clínica, dicho profesional define el tratamiento y la consecuente activación de la ruta de atención general en salud mental, además de la posible referencia a psiquiatría.
               p.text-small(numero="3" titulo="Paso 3: comunicación ERON y al Inpec") El trabajador social comunicará a la dirección del ERON la condición del interno para que se active la ruta articulada con el Inpec (atención y tratamiento, psicosocial y/o educativas) para la inclusión del interno en alguno de los programas institucionales.
               p.text-small(numero="4" titulo="Paso 4: ruta de ingreso se realice por PyP") En caso de que la ruta de ingreso se realice por PyP (promoción de la salud y la prevención de la enfermedad), el profesional encargado realiza la identificación primaria y la remisión a psicología clínica dando a conocer el respectivo seguimiento al proceso.
@@ -257,7 +257,7 @@
               img(src='@/assets/curso/tema2/img8.png').m-auto
         figure.mb-5
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/yqYEn9uhtwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador.mb-5
     #t_2_2
     .titulo-segundo.color-secundario

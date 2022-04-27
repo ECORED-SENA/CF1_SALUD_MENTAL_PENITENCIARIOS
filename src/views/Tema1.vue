@@ -41,7 +41,7 @@
               .row.my-4
                 .col-12
                   figure.my-5
-                    img(src='@/assets/curso/tema1/img3.png', style="width: 350px").m-auto
+                    img(src='@/assets/curso/tema1/img5.png', style="width: 350px").m-auto
                 .col-12(style="height: 120px")
                   p.text-center.txt-deco3 Ministerio de Salud y Protección Social
                 .col-12
@@ -68,7 +68,7 @@
               .row.my-4
                 .col-12
                   figure.my-5
-                    img(src='@/assets/curso/tema1/img5.png', style="width: 350px").m-auto
+                    img(src='@/assets/curso/tema1/img3.png', style="width: 350px").m-auto
                 .col-12(style="height: 120px")
                   p.text-center.txt-deco3 Ministerio de Justicia y de Derecho
                 .col-12
